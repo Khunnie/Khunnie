@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>欢迎访问</title>
+		<link rel="shortcut icon" href="img\ico.ico">
+		<link rel="stylesheet" href="css/resume.css" />
+		<script src="js/jquery-2.2.1.js"></script>
+		<script src="js/resume.js" ></script>
+	</head>
+	<body>
+		<section id="Title">
+			<section id="wrap" data-hash = "index">
+					
+					<header id="head">
+						<div id="box">
+							<nav id="navs">
+								<div class="navlist" data-hash = "index" >
+									<span class="one">HOME</span>
+									<span class="two" >首页</span>
+								</div>
+								<div class="navlist" data-hash = "Introduce">
+									<span class="one">
+	
+	
+	Works</span>
+									<span class="two" >CSS作品</span>
+								</div>
+								<div class="navlist" data-hash = "Works">
+									<span class="one">小游戏</span>
+									<span class="two" >Game</span>
+								</div>
+								<div class="navlist" data-hash = "Message">
+									<span class="one">
+	
+	Photo wall
+	</span>
+									<span class="two" >照片墙</span>
+								</div>
+								<div class="navlist" data-hash = "JS">
+									<span class="one">
+	
+	Introduce
+	</span>
+									<span class="two" >个人介绍</span>
+								</div>
+							</nav>	
+						</div>
+						<div id="navtext">MENU<span class="black"></span></div>
+					</header>
+					
+						
+						
+					
+				<div id="pic">
+					<div style="background:url(img/bg1.jpg);" class="bg"></div>
+					<p id="welcome">W e l c o m e</p>
+					<img src="img/sx.png" alt="" class="ball1"/>
+					<img src="img/xh.png" alt="" class="ball2"/>
+					<img src="img/hx.png" alt="" class="ball3" />
+					<span id="select"></span>
+				</div>
+			</section>
+			<section id="wrap2" data-hash = "Introduce" style="background:url(img/bg2.jpg)">
+				<header id="navtime">
+					<ul>
+						<li></li>
+						<li></li>
+						<li>:</li>
+						<li></li>
+						<li></li>
+						<li>:</li>
+						<li></li>
+						<li></li>
+					</ul>
+				</header>
+				<div id="Tran">
+					<ul id="center">
+						<li class="active">
+							<div class="Acenter">
+								<div class="show one" title="QQ音乐">
+								</div>
+	
+								<p>产品介绍：这是我写的第一个完整静态页面，我分为了上，左，右的排版。页面中的文字和小图都是通过雪碧图来获取，来减少http请求数量。处理了在低版本下的兼容，和一些小图hover后的变化。<a href="http://1.chenmeiqikhun.applinzi.com/QQ/QQmusic.html" target="_blank">友情链接</a></p>
+								
+							</div>
+						</li>
+						<li>
+							<div class="Acenter" >
+								<div class="show two">
+								</div>
+					
+								<p>产品介绍：写移动端我们要注意字体不能使用绝对大小（px），而只能使用相对大小（em）。不使用绝对宽度，只能指定百分比宽度。允许网页宽度自动调整。因为是静态页面没有用到JS，需要注意的地方就只有这些。<a href="http://1.chenmeiqikhun.applinzi.com/taobao/TIanM.html" target="_blank">友情链接</a></p>
+							</div>
+						</li>
+						<li>
+							<div class="Acenter">
+								<div class="show three">
+								</div>
+								<p>产品介绍：响应式 简而言之，就是一个网站能够兼容多个终端——而不是为每个终端做一个特定的版本。语法结构:@media 设备名 only （选取条件） not （选取条件） and（设备选取条件），设备二{sRules}。这个网页适应了五个宽度。能够快捷解决多设备显示适应问题。<a href="http://1.chenmeiqikhun.applinzi.com/UE/UE.html" target="_blank">友情链接</a></p>
+							</div>
+						</li>
+						<li>
+							<div class="Acenter">
+								<div class="show frour">
+								</div>
+								<p>产品介绍：音悦台算是我写的一个CSS作品，跳转了两个页面分别是MV、V榜。网页中的小图都用了雪碧来进行优化。来这哥作品时更多的是想着怎么进行代码优化。因为有许多相似的结构。<a href="http://1.chenmeiqikhun.applinzi.com/yinyuetai/index.html" target="_blank">友情链接</a></p>
+							</div>
+						</li>
+					</ul>
+					<div id="btn">
+						<span class="active">one</span>
+						<span>two</span>
+						<span>three</span>
+						<span>four</span>
+					</div>
+				</div>
+				
+			</section>
+			<section data-hash = "Works" id="Work" style="background:url(img/bg3.jpg)">
+				<div id="float">
+					<input type="button" id="btngame">
+					<div id="fraction">
+					  	<p>得分：0 分</p>
+					  	<p>失分：0 分</p>
+					</div>
+					<div id="qq"><img src="img/img1.gif" id="img1"/></div>
+				</div>
+			</section>
+			<section data-hash = "JS" style="background:url(img/bg5.jpg);" id="jswork">
+				<div id="photo">
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+			</section>
+			<section style="background:url(img/bg4.jpg);" data-hash = "Message" id="name">
+				<div id="leftname">
+					<span id="personal"></span>
+					<div id="type" style="display: none;">
+						姓名:陈 美 琪   ;
+						性别:女   ;
+						出生日期:1995年8月9日  ;
+						毕业学院:湖北生态 技术学院 ;
+						所学专业:园艺  ;
+						项目:手机端淘宝、UE响应式、音悦台、QQ音乐  ;
+						知识:css、javascript、JQuery.Ajax、Html5 ;
+						介绍:本人来自于湖北武汉，今年22岁。我的性格诚信开朗不八卦，团队意识强。易于接受新事物。工作认真负责，积极主动，能出苦耐劳。希望在未来的日子里通过自己的努力成为前端工程师。
+					</div>
+					<div id="marking"></div>
+				</div>
+				<div id="rotate">
+					<div id="mask">
+						
+					</div>
+				</div>
+				
+				
+				<div id="scan"><img src="img/name.JPG" alt=""/></div>
+			</section>
+			
+		</section>
+		
+	</body>
+</html>

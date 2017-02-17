@@ -1,0 +1,54 @@
+@media all and (max-width:579px)
+ {
+	header{width: 100%; height: 50px; background: #323436; position: fixed; left: 0; top: 0; z-index: 2;}
+    .headertop{width:93%; margin: 0 auto; position: relative; height: 32px;}
+	.headertop .icon{ width: 94px; height: 28px; padding-top:12px; margin: 0 auto; float: none;}
+	.icon .iconL{ width:28px; height:28px; background:url(../images/UG.png) no-repeat -183px 0; float: left;}
+	.icon .iconR{ width: 60px; height:23px; background:url(../images/UG.png) no-repeat -217px -4px; float: right; margin-top: 3px;}
+	nav{padding-left:25px; float: left; position: relative; display: none;}
+	nav a{ float: left; color: #8c8c77; padding: 0 20px; line-height: 50px;}
+	nav span{ position: absolute; top: 23px; right: 4px; width: 7px; height: 4px; background:url(../images/UG.png) no-repeat -119px 0;}
+	.img{ width: 56px; height: 50px; padding-left: 152px; display: none;}
+	.img span{ width: 56px; height: 50px; background:url(../images/UG.png) no-repeat 0 -34px; display:block;}
+	.navright{ width: 340px; position: absolute; top: 0; right: 0; float: left; display: none;}
+	.navright .inputlist{ width: 180px; position: relative; height: 26px; background: #fff; border-radius: 50px; margin-top: 12px; float: left;}
+	.inputlist .text{width: 180px;height: 26px; position:absolute; left: 0; top: 0; border-radius: 50px; color:#c0c2c3; line-height: 26px; text-indent: 37px; }
+	.inputlist .submit{ width: 14px; height: 14px; background:url(../images/UG.png) no-repeat -120px -5px; position: absolute; left: 8px; top: 6px; overflow: hidden; }
+	.click{float:left; margin-top: 10px; margin-left: 20px; text-align: center; display: none;}
+	.navright a{ width: 70px; height: 32px;line-height: 32px; float: left;}
+	.navright .enter{ background: #505050; color:#acacac;}
+	.navright .enroll{ background:#6bc30d; color: #e3ffe7;}
+	.icoleft{ width: 30px; height: 13px; background:url(../images/UG.png) no-repeat -153px 0; position: absolute; left: 15px; top: 19px;}
+	.icoright{ width: 24px; height:24px; background:url(../images/UG.png) no-repeat -278px 0; position: absolute; top: 14px;right: 18px;}
+	.time{ width: 100%; height:200px; background:url(../images/pic.jpg); display: none;}
+	.piclist{height: 40px; width: 100%;background-color: #fdfefe;box-shadow: 0 1px 2px rgba(0, 0, 0, 0); margin-top: 50px;}
+	.backimg{ background:url(../images/UG.png) no-repeat; overflow: hidden;display: inline-block;}
+	.navlist{ width: 580px; margin: 0 auto; height: 40px; display: none;}
+	.navtitle{ width: 100%; line-height: 40px; text-align: center; display: inline-block;}
+	.navtitle li{ float: left; width:33%;}
+	.navtitle li a{color: #535353;margin: 0 10px;}
+	.navtitle li .pull{ width: 9px; height: 5px; background-position:-134px -11px;margin-bottom: 3px;}
+	.centent{width: 100%; background: #f1f1f1; overflow: hidden;}
+	.imgpic{ width:100%; margin: 0 auto;}
+	.imgpic .imgtop{ margin-top: 0; width: 100%;}
+	.imgtop li{width: 100%; height: 90px; margin:20px 0 0 0;background: #fff;}
+	.imgtop li:nth-of-type(1),.imgtop li:nth-of-type(2),.imgtop li:nth-of-type(3),.imgtop li:nth-of-type(4){ display: none;}
+	.imgtop li .citem{ width:30%; float: left;padding-left: 10px;box-sizing: border-box;height: 100%;}
+	.imgtop .citem {float: left;width: 100%;height: 100%;}
+	.imgtop .citem a {float: left;width: 100%;height: 100%;}
+	.imgtop .citem span{width: 0;height: 100%;vertical-align: middle;display: inline-block;}
+	.imgtop li .citem img{ width:99%;vertical-align: middle;max-height: 90px;}
+	.imgtop li .number,.imgtop li .citefoot{ display: none;}
+	.imgpic #pages,.imgpic .desgin,.imgpic .project{ display: none;}
+	.footer{display: none;}
+	.Text{width: 70%; padding: 12px 10px 0 10px; position:static; height: 78px; float: right; line-height: 20px; transition: auto;box-sizing: border-box;}
+	.Text span{ display: block; height: 12px;}
+	.Text p{display: block;}
+	.Text a{ float: left; width: 100%; height: 20px; color: #494a49;}
+	.Text .old{ color: #c2bbc6; float: left; width: 100%; height: 20px;}
+	.Text p{padding: 10px 0; height: 12px; color: #92908c; font-size: 12px; width: 100%; float: left; line-height: 12px;}
+	.Text p span:nth-of-type(1){ float: left;}
+	.Text p .Right{ float: right;}
+	.Text p span .backimg{ width: 17px; height: 12px; background-position: 0 -101px; margin-right: 5px;}
+	
+}
